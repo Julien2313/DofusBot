@@ -1,0 +1,66 @@
+sub Dofus
+ Dim monDocument As Object
+ Dim lesFeuilles as Object
+ Dim maFeuille As Object
+ Dim maCellule As Object
+ Dim maCellule2 As Object
+ Dim mesCellules as Object
+ Dim contenu As Long
+ Dim x As Integer
+ Dim y As Integer
+ Dim x1 As Integer
+ Dim y1 As Integer
+ Dim nomFichier As String
+ Dim numFichier As Integer
+ Dim dx As Integer
+ Dim dy As Integer
+ 
+ monDocument = ThisComponent
+ lesFeuilles = monDocument.Sheets
+ maFeuille = lesFeuilles.getByIndex(0)
+
+ contenu = com.sun.star.sheet.CellFlags.VALUE + com.sun.star.sheet.CellFlags.STRING 
+ mesCellules = maFeuille.getCellRangeByName("B2:EN161")
+ mesCellules.clearContents(contenu)
+
+ dx = 93
+ dy = 99
+ for y=-dy to 60
+  for x=-dx to 49
+   maCellule = maFeuille.getCellByPosition(x+dx+1, y+dy+1)
+   v = 0
+   maCellule2 = maFeuille.getCellByPosition(x+dx+1+1, y+dy+1)
+   if maCellule.TableBorder.RightLine.OuterLineWidth<>0 or maCellule2.TableBorder.LeftLine.OuterLineWidth<>0 then
+    v = v + 1
+   end if
+   maCellule2 = maFeuille.getCellByPosition(x+dx+1, y+dy+1-1)
+   if maCellule.TableBorder.TopLine.OuterLineWidth<>0 or maCellule2.TableBorder.BottomLine.OuterLineWidth<>0 then
+    v = v + 2
+   end if
+   maCellule2 = maFeuille.getCellByPosition(x+dx+1-1, y+dy+1)
+   if maCellule.TableBorder.LeftLine.OuterLineWidth<>0 or maCellule2.TableBorder.RightLine.OuterLineWidth<>0 then
+    v = v + 4
+   end if
+   maCellule2 = maFeuille.getCellByPosition(x+dx+1, y+dy+1+1)
+   if maCellule.TableBorder.BottomLine.OuterLineWidth<>0 then
+    v = v + 8
+   end if
+   if v<>0 then
+    maCellule.setValue(v)
+   end if
+  next x
+ next y
+ 
+ nomFichier = "Murs Dofus.txt"
+ numFichier = Freefile
+ Open nomFichier For Output As #numFichier
+ for y=-dy to 60
+  for x=-dx to 49
+   maCellule = maFeuille.getCellByPosition(x+dx+1, y+dy+1)
+   if maCellule.Value>=1 and maCellule.Value<=15 then
+    print #numFichier, trim$(str$(x));",";trim$(str$(y));",";trim$(str$(maCellule.Value))
+   endif
+  next x
+ next y
+ Close #numFichier
+end sub

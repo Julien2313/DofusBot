@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="bot" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/bot" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="libs" />
+				</Compiler>
+				<Linker>
+					<Add library="libs\libdllScripting.a" />
+					<Add directory="libs" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/bot" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add directory="libs" />
+		</Compiler>
+		<Linker>
+			<Add library="libs\libdllScripting.a" />
+			<Add library="C:\Windows\System32\gdi32.dll" />
+			<Add directory="libs" />
+		</Linker>
+		<Unit filename="src/InterfaceGraphique.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bot.h" />
+		<Unit filename="src/combat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/connexion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/deplacements.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fauche.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fonctionDeBaseFenetre.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/initialisations.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/interactionInventaire.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/logging.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/maison.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/personnage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

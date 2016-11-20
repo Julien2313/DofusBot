@@ -1,0 +1,284 @@
+# depslib dependency file v1.0
+1404594262 source:c:\users\julien2313\documents\botc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<time.h>
+	"dllScripting.h"
+
+1408870724 c:\users\julien2313\documents\dllscripting\dllscripting.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1409148973 source:c:\users\julien\desktop\botc\main.c
+	"bot.h"
+
+1408867124 c:\users\julien\desktop\dllscripting\dllscripting.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1408916456 source:c:\users\julien\desktop\botc\interfacegraphique.c
+	"dllScripting.h"
+	<windowsx.h>
+	<windows.h>
+	"bot.h"
+
+1409430296 c:\users\julien\desktop\botc\bot.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	"dllScripting.h"
+
+1409414328 source:c:\users\julien\desktop\botc\combat.c
+	"bot.h"
+
+1408218000 source:c:\users\julien\desktop\botc\initialisations.c
+	"bot.h"
+
+1408197604 source:c:\users\julien\desktop\botc\connexion.c
+	"bot.h"
+
+1408195625 source:c:\users\julien\desktop\botc\fauche.c
+	"bot.h"
+
+1408197600 source:c:\users\julien\desktop\botc\fonctiondebasefenetre.c
+	"bot.h"
+
+1408179380 source:c:\users\julien\desktop\botc\deplacements.c
+	"bot.h"
+
+1411331712 source:c:\users\julien2313\desktop\botc\botc\combat.c
+	"bot.h"
+
+1411402603 c:\users\julien2313\desktop\botc\botc\bot.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	"dllScripting.h"
+
+1411375266 source:c:\users\julien2313\desktop\botc\botc\deplacements.c
+	"bot.h"
+
+1411398659 source:c:\users\julien2313\desktop\botc\botc\fauche.c
+	"bot.h"
+
+1411400436 source:c:\users\julien2313\desktop\botc\botc\fonctiondebasefenetre.c
+	"bot.h"
+
+1411153930 source:c:\users\julien2313\desktop\botc\botc\interfacegraphique.c
+	"dllScripting.h"
+	<windowsx.h>
+	<windows.h>
+	"bot.h"
+
+1411201105 source:c:\users\julien2313\desktop\botc\botc\main.c
+	"bot.h"
+
+1411400804 source:c:\users\julien2313\desktop\botc\botc\connexion.c
+	"bot.h"
+
+1411331756 source:c:\users\julien2313\desktop\botc\botc\initialisations.c
+	"bot.h"
+
+1411330234 source:c:\users\julien2313\desktop\botc\botc\interactioninventaire.c
+	"bot.h"
+
+1417540321 source:c:\users\maxence\desktop\botc\combat.c
+	"bot.h"
+
+1417541323 c:\users\maxence\desktop\botc\bot.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	"dllScripting.h"
+
+1417540377 source:c:\users\maxence\desktop\botc\connexion.c
+	"bot.h"
+
+1417540320 source:c:\users\maxence\desktop\botc\deplacements.c
+	"bot.h"
+
+1417540319 source:c:\users\maxence\desktop\botc\fauche.c
+	"bot.h"
+
+1417540317 source:c:\users\maxence\desktop\botc\fonctiondebasefenetre.c
+	"bot.h"
+
+1417540391 source:c:\users\maxence\desktop\botc\initialisations.c
+	"bot.h"
+
+1417540304 source:c:\users\maxence\desktop\botc\interactioninventaire.c
+	"bot.h"
+
+1417540321 source:c:\users\maxence\desktop\botc\interfacegraphique.c
+	"dllScripting.h"
+	<windowsx.h>
+	<windows.h>
+	"bot.h"
+
+1408867124 c:\users\maxence\desktop\botc\libs\dllscripting.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1417540318 source:c:\users\maxence\desktop\botc\main.c
+	"bot.h"
+
+1417540321 source:c:\users\maxence\desktop\botc\bot-dofus\combat.c
+	"bot.h"
+
+1417545788 c:\users\maxence\desktop\botc\bot-dofus\bot.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	"dllScripting.h"
+
+1408867124 c:\users\maxence\desktop\botc\bot-dofus\libs\dllscripting.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1417546216 source:c:\users\maxence\desktop\botc\bot-dofus\connexion.c
+	"bot.h"
+
+1417540320 source:c:\users\maxence\desktop\botc\bot-dofus\deplacements.c
+	"bot.h"
+
+1417540319 source:c:\users\maxence\desktop\botc\bot-dofus\fauche.c
+	"bot.h"
+
+1417545366 source:c:\users\maxence\desktop\botc\bot-dofus\fonctiondebasefenetre.c
+	"bot.h"
+
+1417545778 source:c:\users\maxence\desktop\botc\bot-dofus\initialisations.c
+	"bot.h"
+
+1417540304 source:c:\users\maxence\desktop\botc\bot-dofus\interactioninventaire.c
+	"bot.h"
+
+1417540321 source:c:\users\maxence\desktop\botc\bot-dofus\interfacegraphique.c
+	"dllScripting.h"
+	<windowsx.h>
+	<windows.h>
+	"bot.h"
+
+1417540318 source:c:\users\maxence\desktop\botc\bot-dofus\main.c
+	"bot.h"
+
+1417822055 source:c:\users\maxence\desktop\botc\bot-dofus\src\combat.c
+	"bot.h"
+
+1417969369 c:\users\maxence\desktop\botc\bot-dofus\src\bot.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	"dllScripting.h"
+
+1417721849 source:c:\users\maxence\desktop\botc\bot-dofus\src\connexion.c
+	"bot.h"
+
+1417952339 source:c:\users\maxence\desktop\botc\bot-dofus\src\deplacements.c
+	"bot.h"
+
+1417968478 source:c:\users\maxence\desktop\botc\bot-dofus\src\fauche.c
+	"bot.h"
+
+1417965821 source:c:\users\maxence\desktop\botc\bot-dofus\src\fonctiondebasefenetre.c
+	"bot.h"
+
+1417964517 source:c:\users\maxence\desktop\botc\bot-dofus\src\initialisations.c
+	"bot.h"
+
+1417952715 source:c:\users\maxence\desktop\botc\bot-dofus\src\interactioninventaire.c
+	"bot.h"
+
+1417714704 source:c:\users\maxence\desktop\botc\bot-dofus\src\interfacegraphique.c
+	"dllScripting.h"
+	<windowsx.h>
+	<windows.h>
+	"bot.h"
+
+1417822055 source:c:\users\maxence\desktop\botc\bot-dofus\src\main.c
+	"bot.h"
+
+1419049000 source:c:\users\julien2313\documents\github\bot-dofus\src\combat.c
+	"bot.h"
+
+1419047008 c:\users\julien2313\documents\github\bot-dofus\src\bot.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	"dllScripting.h"
+
+1417706946 c:\users\julien2313\documents\github\bot-dofus\libs\dllscripting.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1419047292 source:c:\users\julien2313\documents\github\bot-dofus\src\connexion.c
+	"bot.h"
+
+1419047260 source:c:\users\julien2313\documents\github\bot-dofus\src\deplacements.c
+	"bot.h"
+
+1417971227 source:c:\users\julien2313\documents\github\bot-dofus\src\fauche.c
+	"bot.h"
+
+1417971239 source:c:\users\julien2313\documents\github\bot-dofus\src\fonctiondebasefenetre.c
+	"bot.h"
+
+1419046977 source:c:\users\julien2313\documents\github\bot-dofus\src\initialisations.c
+	"bot.h"
+
+1417969508 source:c:\users\julien2313\documents\github\bot-dofus\src\interactioninventaire.c
+	"bot.h"
+
+1419049088 source:c:\users\julien2313\documents\github\bot-dofus\src\main.c
+	"bot.h"
+
+1417707405 source:c:\users\julien2313\documents\github\bot-dofus\src\interfacegraphique.c
+	"dllScripting.h"
+	<windowsx.h>
+	<windows.h>
+	"bot.h"
+
+1417724052 source:c:\users\maxence\desktop\botc\bot-dofus\src\logging.c
+	"bot.h"
+	<stdarg.h>
+	<windows.h>
+
+1417813406 source:c:\users\julien2313\documents\github\bot-dofus\src\logging.c
+	"bot.h"
+	<stdarg.h>
+	<windows.h>
+
+1417966379 source:c:\users\maxence\desktop\botc\bot-dofus\src\maison.c
+	"bot.h"
+
+1417969508 source:c:\users\julien2313\documents\github\bot-dofus\src\maison.c
+	"bot.h"
+
+1417971472 source:c:\users\julien2313\documents\github\bot-dofus\src\personnage.c
+	"bot.h"
+
